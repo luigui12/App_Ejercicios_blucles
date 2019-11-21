@@ -16,5 +16,12 @@ namespace App_Ejercicios_blucles
         {
             InitializeComponent();
         }
+
+        private void hola_Click(object sender, EventArgs e)
+        {
+            int limite = int.Parse(this.limi.Text);
+            String cad = Funciones.Bucles.saludos(limite);
+            this.impresion.Text = cad;
+        }
     }
 }
