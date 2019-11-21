@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_Ejercicios_blucles", "App_Ejercicios_blucles\App_Ejercicios_blucles.csproj", "{05A00699-ED46-4422-8F5E-12A881012E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A00699-ED46-4422-8F5E-12A881012E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A00699-ED46-4422-8F5E-12A881012E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A00699-ED46-4422-8F5E-12A881012E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A00699-ED46-4422-8F5E-12A881012E07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {019F2BC8-0AF4-4ED1-91E1-B0763D566109}
+	EndGlobalSection
+EndGlobal
