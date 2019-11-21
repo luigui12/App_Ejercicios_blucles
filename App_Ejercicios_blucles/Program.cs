@@ -16,7 +16,7 @@ namespace App_Ejercicios_blucles
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Lista());
+            Application.Run(new Notas_Estudent_s());
         }
     }
 }
