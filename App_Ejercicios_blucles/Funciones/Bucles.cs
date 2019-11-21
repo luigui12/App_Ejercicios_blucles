@@ -20,5 +20,21 @@ namespace App_Ejercicios_blucles.Funciones
             }
             return cad.ToString();
         }
+        public static long factorial(int num)
+        {
+            int i = 0;
+            long fac = 1;
+            if (num == 1 || num == 0)
+                return 1;
+            do
+            {
+                i++;
+                fac = fac * i;
+            }
+            while (i < num);
+            
+                return num;
+            
+        }
     }
 }
