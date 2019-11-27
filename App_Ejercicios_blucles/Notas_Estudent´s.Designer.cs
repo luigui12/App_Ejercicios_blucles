@@ -35,6 +35,8 @@
             this.xx = new System.Windows.Forms.Label();
             this.total = new System.Windows.Forms.TextBox();
             this.promedio = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.numero = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // orden
@@ -97,11 +99,29 @@
             this.promedio.Size = new System.Drawing.Size(100, 20);
             this.promedio.TabIndex = 6;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(29, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(22, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Nº ";
+            // 
+            // numero
+            // 
+            this.numero.Location = new System.Drawing.Point(12, 109);
+            this.numero.Name = "numero";
+            this.numero.Size = new System.Drawing.Size(39, 20);
+            this.numero.TabIndex = 8;
+            // 
             // Notas_Estudent_s
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(464, 327);
+            this.ClientSize = new System.Drawing.Size(469, 283);
+            this.Controls.Add(this.numero);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.promedio);
             this.Controls.Add(this.total);
             this.Controls.Add(this.xx);
@@ -125,5 +145,7 @@
         private System.Windows.Forms.Label xx;
         private System.Windows.Forms.TextBox total;
         private System.Windows.Forms.TextBox promedio;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox numero;
     }
 }

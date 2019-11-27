@@ -58,7 +58,7 @@
             this.listaNumero.FormattingEnabled = true;
             this.listaNumero.Location = new System.Drawing.Point(52, 122);
             this.listaNumero.Name = "listaNumero";
-            this.listaNumero.Size = new System.Drawing.Size(109, 160);
+            this.listaNumero.Size = new System.Drawing.Size(132, 160);
             this.listaNumero.TabIndex = 2;
             // 
             // Lista
